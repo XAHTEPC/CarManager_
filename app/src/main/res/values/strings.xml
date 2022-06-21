@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CarManager</string>
+
+    <string name="diesel">Дизель</string>
+    <string name="ai92">АИ-92</string>
+    <string name="ai95">АИ-95</string>
+    <string name="ai100">АИ-100</string>
+    <string name="gaz">Газ</string>
+
+    <string name="hod">Ходовая</string>
+    <string name="kuz">Кузов</string>
+    <string name="ras">Расходники</string>
+
+    <string name="t1">Проезд на красный</string>
+    <string name="t2">Нарушение разметки</string>
+    <string name="t3">Превышение скорости</string>
+    <string name="t4">Другое</string>
+
+    <string-array name="array_fuel_options">
+        <item>@string/ai92</item>
+        <item>@string/ai95</item>
+        <item>@string/ai100</item>
+        <item>@string/gaz</item>
+        <item>@string/diesel</item>
+    </string-array>
+
+    <string-array name="array_fine_options">
+        <item>@string/t1</item>
+        <item>@string/t2</item>
+        <item>@string/t3</item>
+        <item>@string/t4</item>
+    </string-array>
+
+    <string-array name="array_service_options">
+        <item>@string/hod</item>
+        <item>@string/kuz</item>
+        <item>@string/ras</item>
+    </string-array>
+</resources>
